@@ -54,13 +54,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuButton.cs" />
+    <Compile Include="Assets\Scripts\UI\ToggleAnimetionMenu.cs" />
     <Compile Include="Assets\Scripts\UIQuitApp.cs" />
     <Compile Include="Assets\Scripts\testmessage.cs" />
     <Compile Include="Assets\Scripts\MenuNav.cs" />
     <Compile Include="Assets\Scripts\ButtonOnClick.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\SceneChangetoName.cs" />
-    <Compile Include="Assets\Scripts\UI\ToggleAnimetionMenu.cs" />
+    <Compile Include="Assets\Scripts\GetSliderValue.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
