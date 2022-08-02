@@ -8,8 +8,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Rise
+  - m_ConditionMode: 2
+    m_ConditionEvent: Drop
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 483196243076513983}
@@ -42,7 +42,7 @@ AnimatorStateMachine:
     m_Position: {x: 480, y: 270, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6576272743133702787}
-    m_Position: {x: 310, y: 360, z: 0}
+    m_Position: {x: 280, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 483196243076513983}
     m_Position: {x: 30, y: 270, z: 0}
@@ -195,8 +195,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Rise
+  - m_ConditionMode: 2
+    m_ConditionEvent: Drop
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6576272743133702787}
@@ -222,12 +222,6 @@ AnimatorController:
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Drop
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: Rise
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0

@@ -8,4 +8,8 @@ public class UIQuitApp : MonoBehaviour
     {
         Application.Quit();
     }
+    public void QuitTheGame()
+    {
+        Application.Quit();
+    }
 }

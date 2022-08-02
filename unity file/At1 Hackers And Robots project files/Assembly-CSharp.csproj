@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\ButtonOnClick.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\SceneChangetoName.cs" />
+    <Compile Include="Assets\Scripts\UI\ToggleAnimetionMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
