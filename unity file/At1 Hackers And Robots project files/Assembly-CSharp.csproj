@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\UI\ToggleAnimetionMenu.cs" />
     <Compile Include="Assets\Scripts\UIQuitApp.cs" />
     <Compile Include="Assets\Scripts\testmessage.cs" />
+    <Compile Include="Assets\Scripts\UI\DropdownHeightSetter.cs" />
     <Compile Include="Assets\Scripts\MenuNav.cs" />
     <Compile Include="Assets\Scripts\UI\GetResolutionList.cs" />
     <Compile Include="Assets\Scripts\GetSliderValue.cs" />
