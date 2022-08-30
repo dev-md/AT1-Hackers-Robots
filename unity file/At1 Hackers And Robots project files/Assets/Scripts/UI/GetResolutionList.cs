@@ -8,9 +8,19 @@ public class GetResolutionList : MonoBehaviour
     private List<string> resList = new List<string>();
     private Text resText;
     private Dropdown boxDrop;
+
+    [SerializeField] private Text noDropText;
     void Awake()
     {
         Resolution[] resolutions = Screen.resolutions; //all resolution
+
+        if(resolutions.Length == 1)
+        {
+            noDropText.text = (resolutions[0].width + "x" + resolutions[0].height + ":  " + resolutions[0].refreshRate + "Hz: (Can't Change)");
+            noDropText.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
+
         foreach (Resolution res in resolutions)
         {
             resList.Add(res.width + "x" + res.height + ":  " + res.refreshRate + "Hz");
