@@ -20,6 +20,12 @@ public class GetResolutionList : MonoBehaviour
             noDropText.gameObject.SetActive(true);
             this.gameObject.SetActive(false);
         }
+        else if (resolutions.Length == 0)
+        {
+            noDropText.text = ("Can't Change Screen in this mode.");
+            noDropText.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
+        }
 
         foreach (Resolution res in resolutions)
         {
